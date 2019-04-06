@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16452" started-at="2019-01-19T10:23:24Z" finished-at="2019-01-19T10:23:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16452" started-at="2019-01-19T10:23:24Z" finished-at="2019-01-19T10:23:40Z">
+      <class name="smokeTest.SmokeTestPayPalTextBox">
+        <test-method status="PASS" signature="openBrowse()[pri:0, instance:smokeTest.SmokeTestPayPalTextBox@5bfbf16f]" name="openBrowse" is-config="true" duration-ms="5112" started-at="2019-01-19T10:23:24Z" finished-at="2019-01-19T10:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method status="PASS" signature="beforet()[pri:0, instance:smokeTest.SmokeTestPayPalTextBox@5bfbf16f]" name="beforet" is-config="true" duration-ms="1" started-at="2019-01-19T10:23:29Z" finished-at="2019-01-19T10:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforet -->
+        <test-method status="PASS" signature="script1()[pri:1, instance:smokeTest.SmokeTestPayPalTextBox@5bfbf16f]" name="script1" duration-ms="11053" started-at="2019-01-19T10:23:29Z" finished-at="2019-01-19T10:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:smokeTest.SmokeTestPayPalTextBox@5bfbf16f]" name="tearDown" is-config="true" duration-ms="273" started-at="2019-01-19T10:23:40Z" finished-at="2019-01-19T10:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=script1 status=SUCCESS method=SmokeTestPayPalTextBox.script1()[pri:1, instance:smokeTest.SmokeTestPayPalTextBox@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:smokeTest.SmokeTestPayPalTextBox@5bfbf16f]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-01-19T10:23:40Z" finished-at="2019-01-19T10:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- smokeTest.SmokeTestPayPalTextBox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

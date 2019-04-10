@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Execute tests">
+    <classes>
+      <class name="smokeTest.SmokeTestPayPalTextBox"/>
+      <class name="smokeTest.SmokeTestProductItem"/>
+      <class name="smokeTest.SmokeTestSearchaniesExtention"/>
+      <class name="functionality.FunctionalityProductReview"/>
+    </classes>
+  </test> <!-- Execute tests -->
+</suite> <!-- Suite -->
